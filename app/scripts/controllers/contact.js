@@ -1,26 +1,17 @@
-/*globals*/
 'use strict';
 
 /**
  * @ngdoc function
- * @name claritystormApp.controller:MainCtrl
+ * @name claritystormApp.controller:AboutCtrl
  * @description
- * # MainCtrl
+ * # AboutCtrl
  * Controller of the claritystormApp
  */
 angular.module('claritystormApp')
-    .controller('MainCtrl', function ($scope) {
+    .controller('ContactCtrl', function ($scope) {
         $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
-
-        $scope.$on('$viewContentLoaded', function () {
-            
-            
-            
-
-        });
-
     });
